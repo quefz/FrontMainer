@@ -39,7 +39,7 @@ def voiting(data: dict):
 def handle_mine(data: dict):
     ready_txs = data.get("ready_txs", [])
     miner_address = data.get("miner_address", "DEFAULT_MINER_ADDRESS")
-    prev_hash = "0000000000000000000000000000000000000000000000000000000000000000"
+    prev_hash = "0" * 64
     try:
         chain = requests.get(f"{API_BASE}/api_state.py").json().get("chain", [])
         if chain:

@@ -65,7 +65,7 @@ class MyBlock(IBlock):
     def mine(self):
         t_pref = "0" * self.difficulty
         while True:
-            self.hash() = self.calculate_hash()
+            self.hash = self.calculate_hash()
             if self.hash.startswith(t_pref):
                 break
             self.nonce += 1
