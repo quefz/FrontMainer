@@ -1,0 +1,5 @@
+{
+  "mode": "remote",
+  "node_name": "full_node",
+  "api_base": "http://127.0.0.1:8099/cgi-bin"
+}

@@ -1,0 +1,25 @@
+{
+  "index": 0,
+  "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "transactions": [
+    {
+      "tx_id": "genesis",
+      "body": {
+        "is_coinbase": true,
+        "sender_address": "GENESIS",
+        "recipient_address": "1ecbpNmJ2AVPzCTcoaJnVxP4J1L3K68mt",
+        "item_id": "genesis_supply",
+        "action": "GENESIS",
+        "amount": 1000.0,
+        "fee": 0,
+        "timestamp": 1795615977,
+        "nonce": "1795615977.3626266",
+        "message": "Genesis block: инициализация узла частной сети"
+      },
+      "signature": "system"
+    }
+  ],
+  "difficulty": 3,
+  "nonce": 421,
+  "hash": "00076422e740ceda0b14ed149466c92fd47e6545c82100a9a6015b691e5e18f0"
+}
